@@ -1,0 +1,1148 @@
+
+@media only screen and (min-width:2000px) {
+    
+    .banner{ width: 100%;
+    height:700px;
+    }
+}
+@media only screen and (min-width:1921px) {
+    
+    .banner{ width: 100%;
+    height:400px;
+    }
+}
+@media only screen and (max-width: 1399px) {
+    
+    .top-header{padding-left:3.5rem}
+    .tab-match-body .th-heading, .td-content {
+    font-weight: normal;
+    font-size: 0.6rem;
+    padding: 10px 2px;
+    vertical-align: middle;
+}
+  .catg {
+        padding: 10px 2px;}
+   
+}
+
+@media only screen and (max-width: 1316px) {
+    .list_col.team_detail .box1 {
+    display: inline-block;
+    text-align: center;
+    width: 132px;
+    vertical-align: text-top;
+}
+    
+  .catg_title{font-size: 12px;}  
+}
+@media only screen and (max-width: 1280px) {
+	.ads-left,
+	.ads-right {
+		display: none
+	}
+    
+    .top-header{padding-left:4.8rem}
+      
+    
+}
+@media only screen and (max-width: 1201px) {
+     .top-header{padding-left:7rem; display: flex;}
+    .team-logo li .badge {
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-right: 0;
+}
+     .top-header .badge-title h6 {
+    line-height: 2.6rem;
+}
+}
+@media only screen and (max-width: 1187px) {
+    .list_col.team_detail .box1 {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    vertical-align: text-top;
+}
+    @media only screen and (max-width: 1103px) {
+    .list_col.team_detail .box1 {
+    display: inline-block;
+    text-align: center;
+    width:100px;
+    vertical-align: text-top;
+        
+}
+         .t-box-1 .catg .img_box {
+            width: 60px;
+            height: 60px;
+            }
+        .team_icon {
+    width: 40px;
+    height: 40px;
+            margin-right: 10px;
+}
+    }
+@media only screen and (max-width: 1024px) {
+   
+    .container-scroll{    
+        height: auto;
+    max-height:45vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+     .patner-section li{ display: inline-block; border-bottom: 1px solid #b2b7b8; width: 30%;}
+    .team-logo li .badge img{ max-width: 100%; max-height: 100%; transform: scale(0.7);}
+    
+    .tab-match-body .th-heading, .td-content {
+    font-weight: normal;
+    font-size: 0.6rem;
+    padding: 10px 2px;
+    vertical-align: middle;
+}
+  .tab-menu{ display: block; margin:0.8rem auto 0; width:100%;}
+    .tab-menu .nav{justify-content: center;}
+    #myTabContent > .wrapper{display: block;}
+    .tab-container.fade:not(.show) {
+    opacity:0 ;
+        display: none;
+}
+    .t-box-1{ width:99%; padding-right: 0px; padding-left:0px;}
+   .box-2{ width: 99%; padding-right: 10px; padding-left:20px;}
+    .instruction{margin-top:22px;}
+    
+    .desktop-menu{display: none}
+    .mobile-menu,  .next_menu{display: block; text-align: center;}
+    /*.tab-content{ background:#fbfafa;}*/
+    
+    .mobile-menu .match_menu .link_area a.active:before
+{
+    color: #8d0362;
+	content: "\f0d8";
+	font-family: FontAwesome;
+	font-size: 40px;
+    position: absolute;
+    top:-39px;
+    z-index: 1;
+    left: calc(100% - 56%)
+}
+    .match_menu {
+    position: relative;
+    padding:0px 10px 20px;
+    margin-top: 0px;
+}
+    .palyer_list .list_col.w-40 {
+    width: 5%;
+}
+}
+@media only screen and (max-width:993px) {
+    
+    .top-header{padding-left:7rem; display: flex;}
+    .team-logo li .badge {
+    width: 2rem;
+    height: 2rem;
+        padding: 0px
+}
+    .top-header .badge-title h6 {
+    line-height: 2rem;
+}
+    .catg_title {
+    font-size: 14px;
+}
+    .catg {
+    padding: 15px 2px;
+
+}
+@media only screen and (max-width:992px) {
+    
+    .top-header{padding-left:2rem}
+}
+@media only screen and (max-width: 980px) {
+	.container_wrap,
+	.subheader_wrap, .container_wrap2 {
+		/*max-width: 720px;*/
+		max-width:900px;
+	}
+	/*.catg_wrap {
+		width: 153px;
+	}*/
+	.catg_wrap:nth-child(5n) {
+		margin-right: inherit;
+	}
+	.catg_wrap:nth-child(4n) {
+		margin-right: 0px;
+	}
+/*
+	nav {
+		height: 80px;
+		padding: 10px 20px;
+	}
+	.league_logo-inner{height: 83px; top: -20px;}
+    .league_logo {
+    width: 60px;
+    height: 60px;
+        margin: 14px auto 10px;
+    }
+	.logo a {
+		display: block;
+		width: auto;
+	}
+	.league_icon {
+		width: 40px;
+	}
+    .sticky .league_logo-inner {
+        width: 117px;
+    height:80px;
+    top: -15px;
+}
+    .sticky .league_logo {
+    margin: 6px auto;
+}
+*/
+	.matches_list:hover,
+	.check,
+	.team-name:hover {
+		background: transparent;
+	}
+	.matches_list:hover label,
+	.catg:hover label {
+		background: rgba(0, 0, 0, .0);
+	}
+	.checkbox_img:hover label:before {
+		font-size: 0px
+	}
+	/*.list_col.team_detail { width: 50%;}*/
+	.list_col.team_detail .box1 {
+		width: 112px;
+		vertical-align: top;
+	}
+	/*.title_bg .list_col {width: 37%;}*/
+    .splash .epl-logo{ width: 220px; margin: 0px auto}
+    .top-bg{display: none}
+    
+    /*color-theme*/
+    
+   .score-detail {
+    width: 70%;
+}
+  .left-panel {
+    display: none;
+} 
+    .right-panel{width: 100%;}
+    
+}
+
+@media only screen and (max-width: 853px) {
+	/*.title_bg .list_col {width: 30%;}*/
+	/*.title_bg .list_col:nth-child(3n) { padding-left: 56px}*/
+     .left-text, .right-text {
+    font-size: 1rem;
+}
+    
+}
+
+@media only screen and (max-width: 812px) {
+	/*.catg_wrap {
+    width: 140px;
+}*/
+	.w_epl_logo {
+		width: 68px;
+	}
+	/*.list_col.team_detail {text-align: center;}*/
+	.list_col.team_detail .box1 {
+		width: 94px;
+	}
+	.list_col.team_detail .span {
+		top: 22%;
+	}
+	.matches_list_outer.r_top_border:first-child {
+		padding-top: 0px;
+	}
+	.palyer_list,
+	.palyer_list_name,
+	.matches_list_outer {
+		display: table;
+		width: 100%;
+		position: relative;
+		font-size: 14px;
+	}
+	/*.g_res_w{ width: 200px;}*/
+	.catg_title {
+		font-weight: 400;
+		word-wrap: break-word;
+	}
+	/*.list_col.team_detail {
+
+    width: 60%;
+    position: relative;
+
+}*/
+	.list_col.team_detail .span {
+		left: 45%;
+	}
+	.footer_wrap {
+		margin-top: 0px;
+		position: fixed;
+		width: 100%;
+		bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.container_wrap{
+		min-height: 820px;
+	}
+
+	.container_wrap2 {
+		min-height:600px;
+	}
+    .wrapper{display: flex; justify-content: space-between; width: 100%;
+        padding-left:0px!important; padding-right: 0px!important; max-width: 1920px; margin: 0px auto}
+}
+
+/*@media only screen and (max-width:736px) {*/
+@media only screen and (max-width:768px) {
+    
+     .play_ground_overlay {
+	background: #ffffff;
+}
+    
+    .title_bg,  .matches_list_outer:last-child, .team-name:last-child, .team-name,
+.player-name {
+    /*border-top: 1.8px solid #000;*/
+    border-bottom: 1px solid #000;
+}
+    .matches_list_outer, .team-name, .player-name{
+    border-bottom: 1px solid #000;
+}
+    .start-screen{ background: #1d1d1e;
+}
+    .sub-active, .instruction .spanColoractive {
+    color: #0095c4;
+}
+    
+/*    .matches_list:hover,.check,.team-name:hover,.player-name:hover {*/
+   .check,.team-name:hover,.player-name:hover {
+	transition: all .5s ease-in-out;
+	background: rgba(141, 3, 98, .7)
+    
+}
+/*
+    .checkbox_img>input[type=checkbox]:checked+label,
+.catg:hover label,
+.matches_list:hover label {
+	 background: rgba(0, 0, 0, .7);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	font-weight: 400;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+	background: linear-gradient(rgba(0, 150, 196, 0.219) 0%, rgba(0, 150, 196, 0.164) 90%), linear-gradient(to right, rgba(0, 150, 196, 0.247) 0%, rgba(0, 150, 196, 0.158) 90%);
+	background-blend-mode: screen, difference, lighten;
+}
+    .blue_bg {
+	background-color: #0095c4;
+	 background: linear-gradient(270deg,#0095c4,#0095c4 45%);
+}
+*/
+     .next_btn {
+/*    background: #0095c4;*/
+    color: #ffffff;
+    transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+    
+    .banner-text h3 {
+    font-size: 1rem;
+}
+    /*.banner-text h2 {
+    font-size: 2rem;
+}*/
+    
+    .black-bg {
+    padding: 4px;
+    font-size: 0.8rem; 
+}
+	/*.catg_wrap {
+		width: 150px;
+	}*/
+    .banner{height: 100px}
+	.d_res_none {
+		display: none
+	}
+	/*.play_ground{ background-image:none; background-position: center; background-size: cover}*/
+	.title_League {
+		justify-content: flex-start;
+		margin: 0px 0px 20px 0px;
+		padding: 10px 0px;
+	}
+	.w_epl_logo {
+		width: 60px;
+		margin: 0px 0px 0px 20px;
+	}
+	.container_wrap {
+		max-width: 95%;
+	}
+	.subheader_wrap {
+		width: 100% !important;
+		max-width: 100%!important;
+		margin: 0px;
+		padding: 0px
+	}
+	footer {
+		display: none;
+	}
+	.match_menu {
+		position: fixed;
+		bottom: 0%;
+/*		background-color: #343a40;*/
+		background-color: #8d0362;;
+		width: 100%;
+		padding: 6px 10px;
+		z-index: 9;
+	}
+	.next_menu {
+		bottom: 10%;
+/*		position: fixed;*/
+		width: 100%;
+		z-index: 9;
+		left: 0px;
+	}
+	.next_btn {
+		/*background: #040029;*/
+		color: #ffffff;
+		transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+	}
+	.next_btn:hover,
+	.next_btn:focus {
+		color: #fff;
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+		-moz-box-shadow: 0 0 0px 0px #d2f3ff;
+		-webkit-box-shadow: 0 0 0px 5px#d2f3ff;
+		box-shadow: 0 0 0px 0px #d2f3ff;
+	}
+    .match_menu .link_area a {
+	color: #fff;
+    /*border: 2.1px solid #fff;*/
+    /*border-radius:30px;
+       -webkit-transform: scale(0.9);
+    transform: scale(0.9);*/
+    transition: 1s;
+    /* box-shadow: 0 0 7px #c2c2c2; */
+        background: transparent;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    
+}
+    .match_menu .link_area a:hover, .match_menu .link_area .active{  background: transparent;
+    /*border: 2.1px solid #c73152;*/ color: #d838a6; /*background: #a80025; */
+    /*box-shadow:inset 0 0 10px #c73152   ; */ 
+   /* -webkit-transform: scale(1);
+    transform: scale(1);*/
+}
+	/*.match_menu .link_area li {
+		border-right: 1px solid #101f42
+	}*/
+	.match_menu .link_area li:last-child {
+		border-right: 0px solid #070248
+	}
+	.match_menu .link_area a {
+		color: #ffffff;
+		padding-left: 20px;
+		padding-right: 20px;
+        border: 1px solid transparent;
+        box-shadow: none;
+	}
+	
+	.container_wrap {
+		padding-bottom:10px;
+		padding-top: 20px;
+	}
+	.list_col.team_detail .span {
+		left: 45%;
+		font-size: 18px;
+		text-align: center;
+	}
+	.palyer_wrap:nth-child(1) {
+		border-top: 0px solid #000000;
+	}
+	.instruction {
+		margin-bottom: 0px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #000000
+	}
+	.instruction li:after {
+		width: 110%;
+		left: 75%;
+	}
+    .long-ply-name, .res-hide, .list-logo{ display: none!important}
+    .short-ply-name{ display: inline-block;}
+    .instruction li {
+	border-right: 2px solid #8d0362;
+}
+    .banner-text h2 {
+    font-size: 1.5rem;
+}
+    .box-2 {
+    padding-right: 0px;
+    padding-left: 0px;
+} 
+    .matches_list .team_name, .matches_list .date, .matches_list .stadium-name{font-size: 13px;}
+    .match_menu .link_area a.active::before {
+    color: #243378;
+    content: "\f0d8";
+    font-family: FontAwesome;
+    font-size: 40px;
+    position: absolute;
+    top: -48px;
+    z-index: 1;
+    left: calc(100% - 56%);
+}
+    .patner-section {
+    margin-top: 0rem;
+}
+/*    .tab-content{ background:#fbfafa;}*/
+.black-bg {
+	width: 100%;
+}
+  
+    
+
+}
+@media only screen and (max-width:742px) {
+    .score-detail {
+    width: 80%;
+}
+    /*    mobileviewhide*/
+    
+    .tab-menu,  .banner-text, .banner-section{display: none}
+    .instruction {
+    margin-top: 0px;
+}
+/*
+    .container-scroll {
+    max-height: 50vh;
+}
+*/
+    .next_menu .m_t20{margin-top: 10px;}
+    .match_menu .link_area a {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    
+}
+}
+
+
+@media only screen and (max-height:375px) {
+	.next_menu {
+		bottom: 16%;
+	}
+}
+
+@media only screen and (max-width:680px) {
+    /*    mobileviewhide*/
+    
+/*
+    .tab-menu,  .banner-text, .banner-section{display: none}
+    .instruction {
+    margin-top: 0px;
+}
+*/
+/*
+    .container-scroll {
+    max-height: 50vh;
+}
+*/
+    .next_menu .m_t20{margin-top: 10px;}
+    .match_menu .link_area a {
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    
+}
+    }
+@media only screen and (max-width:667px) {
+	.container_wrap, .container_wrap2 {
+		min-height: 540px;
+	}
+	/*.container_wrap {
+		max-width: 540px;
+	}*/
+    .container_wrap, .container_wrap2 {
+		max-width: 700px;
+	}
+	.catg_wrap {
+		width: 30%;
+	}
+	.matches_list .list_col {
+		width: 25%;
+	}
+	.list_col.team_detail {
+		width:46%;
+		text-align: center;
+	}
+	/*.catg_wrap:nth-child(4n),
+	.catg_wrap:nth-child(5n) {
+		margin: 8px;
+	}*/
+	.catg_wrap:nth-child(3n) {
+		margin-right: 0px;
+	}
+	.matches_list .list_col i {
+		font-size: 19px;
+	}
+	.palyer_list .list_col i {
+		font-size: 16px;
+	}
+	.next_menu {
+		bottom: 12%;
+	}
+	.list_col .game_logo {
+		width: 50px;
+		height: 50px;
+		padding: 10px 6px;
+	}
+	/*.instruction{margin-bottom: 0px; }
+.instruction li{ font-size: 13px; font-weight: 600}
+.instruction .span{
+	padding: 2px 7px;  font-size: 12px;}
+.instruction li:after{ display: none}	*/
+	.instruction .icon {
+		width: 70px;
+		height: 70px;
+	}
+	.instruction li {
+		display: inline-block;
+		text-align: center;
+		word-wrap: break-word;
+	}
+	footer {
+		display: none;
+	}
+    .splash h2 {
+    font-size: 1.5rem;
+        margin-bottom: 0.1rem;
+}
+    
+    .splash .epl-logo {
+    width: 180px;
+}
+    .start-button {
+    margin: 10px auto;
+  }
+    
+    /*.start-button a {
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 1rem;
+}*/
+     .start-button a{
+    width: 5.1rem;
+    height:5.1rem;
+         
+  }
+   .left-text, .right-text {
+    font-size: 1rem;
+} 
+    .date-heading {
+    font-size: 16px;
+}
+    .match-board {
+    justify-content:space-between;
+}
+    .left-text, .right-text {;
+    width: 23%;
+}
+   .left-text, .right-text {
+    font-size: 0.7rem;
+}
+    .badge-l-purple {
+    padding: 0px;
+}
+    .badge-small {
+    padding: 4px 6px;
+    font-size: 0.7rem;
+}
+    .game_logo2 {
+    width: 40px;
+    height:40px;
+}
+    .date-heading {
+    font-size: 14px;
+}
+    .match-board {
+    justify-content:space-between;
+    padding: 0px;
+}
+    .matches_list-2 {
+    padding: 6px;
+}
+    .match-board {
+    justify-content: space-between;
+}
+    
+.match_menu .link_area a .img-btn {
+         font-size: 16px;
+	}
+    
+}
+
+@media only screen and (max-width:598px) {
+	nav {
+        height: 60px;
+		padding: 10px 4px;
+	}
+	.container_wrap, .container_wrap2 {
+		/*max-width: 522px;*/
+		max-width:600px;
+	}
+    .league_logo-inner {
+    left: -4px;
+    top: -16px;
+        height:72px;
+        width: 100px;
+}
+    .league_logo {
+    margin: 14px auto 10px;
+        width: 55px;
+    height: 55px;
+}
+    .sticky .league_logo-inner {
+    height: 65px;
+    
+}
+    .sticky .league_logo {
+    width: 50px;
+    height: 50px;
+}
+  .instruction .spanColor {
+    font-size: 20px;
+}  
+}
+@media only screen and (max-width:580px) {
+    .tab-menu,  .banner-text, .banner-section{display: none}
+    .instruction {
+    margin-top: 0px;
+}
+    .container-scroll {
+    max-height: 50vh;
+}
+    .next_menu .m_t20{margin-top: 10px;}
+
+    .match_menu .link_area a {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    
+}
+}
+@media only screen and (max-width:568px) {
+	.match_menu {
+		bottom: 0%;
+		position: fixed;
+	}
+	.w_epl_logo {
+		width: 45px;
+		45px;
+		margin: 0px 0px 0px 10px;
+	}
+	.title_League h2 {
+		font-size: 20px;
+	}
+	.container_wrap, .container_wrap2 {
+		/*max-width: 92%;*/
+		max-width: 99%;
+	}
+	.catg_title {
+		font-size: 14px;
+	}
+	.list_col {
+		/*font-weight: 500;*/
+		word-wrap: normal;
+		padding: 0px;
+	}
+	.matches_list .list_col,
+	.list_col.team_detail,
+	.play_link a label {
+		font-size: 14px;
+	}
+	.list_col i {
+		font-size: 16px;
+	}
+	.list_col i:first-child {
+		margin-right: 6px;
+	}
+	.list_col i:last-child {
+		margin-left: 6px;
+	}
+	.footer_wrap {
+		font-size: 13px;
+	}
+	/*.play_link label { display: none}*/
+	/*.matches_list{  padding:0px 6px 0px 0px;}*/
+	/*.matches_list_outer{
+    padding: 10px 0px;
+
+}*/
+	.next_menu {
+		bottom: 14%;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.catg_wrap {
+		width: 29%;
+	}
+	.list_col.team_detail .box1 {
+		width: 82px;
+	}
+	.catg {
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0px auto 0px;
+		text-align: center;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	.container_wrap, .container_wrap2 {
+		max-width: 95%;
+		padding-right: 7px;
+		padding-left: 7px;
+	}
+	.play_link a label {
+		font-size: 12px;
+	}
+	.catg_wrap {
+		width:33%;
+	}
+	.instruction .icon {
+		width: 50px;
+		height: 50px;
+		padding: 6px 0px;
+	}
+	.instruction .label {
+		font-size: 12px;
+        font-weight: normal;
+        padding: 5px 16px;
+	}
+	.instruction li:after {
+		width: 160%;
+		left: 65%;
+		height: 11px;
+		top: 25%;
+		left: 66%;
+	}
+    .palyer_list .list_col.w-40 {
+        width: 20%
+    }
+    .left-text, .right-text {
+    font-size: 0.7rem;
+}
+    .badge-l-purple {
+    padding: 0px;
+}
+    .badge-small {
+    padding: 4px 6px;
+    font-size: 0.7rem;
+}
+    .game_logo2 {
+    width: 40px;
+    height:40px;
+}
+    .date-heading {
+    font-size: 14px;
+}
+    .match-board {
+    justify-content:space-between;
+    padding: 0px;
+}
+    .palyer_list2 .team_icon {
+    width: 22px;
+    height: 22px;
+}
+    .title_bg2 .team_logo{ width: 30px; height: auto;}
+    
+    .title_bg2 .list_col2, .palyer_wrap .title_bg2 .list_col2 {
+    width: 33.33%;
+        justify-content: center;
+}
+    .team_icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+    .box-1 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+    .nav-tabs .nav-link {
+    padding: .8rem 1.4rem;
+}
+}
+@media only screen and (max-width:450px) {
+	.match_menu .link_area a {
+		color: #ffffff;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.match_menu .link_area a .img-btn {
+		/*width: 130px;*/
+        padding: 0px 8px;
+	}
+}
+@media only screen and (max-width:414px) {
+	.title_bg2 {
+		margin-bottom: 8px;
+	}
+	.match_menu {
+		bottom: 0%;
+		position: fixed;
+        padding: 0px 10px;
+	}
+	.list_col {
+		text-align: inherit;
+	}
+	.title_League {
+		display: none;
+	}
+	.matches_list .list_col {
+		width: 23%;
+	}
+	.list_col.team_detail {
+		width: 60%;
+	}
+    .list_col.team_detail {
+		width: 49%;
+	}
+	.list_col {
+		width: auto
+	}
+	.title_bg .team_logo {
+		width: 30px;
+		height: 30px;
+	}
+	.t_name {
+		font-size: 14px;
+	}
+	.vs {
+		margin: 0px 10px;
+		font-size: 17px;
+	}
+	.center_text {
+		text-align: center;
+	}
+	.catg_wrap:nth-child(1n),
+	.catg_wrap:nth-child(2n),
+	.catg_wrap:nth-child(4n),
+	.catg_wrap:nth-child(5n) {
+		margin: 0px;
+	}
+	.catg_wrap:nth-child(3n) {
+		margin: 0 px;
+	}
+	.list_col.team_detail .box1 {
+		width: 63px;
+	}
+	.list_col.team_detail .span {
+		font-size: 12px;
+	}
+	.matches_list_outer .team_namediv {
+		display: table-caption;
+		width: 100%;
+		border-bottom: 1px dashed #838383;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.next_menu {
+		bottom: 8%;
+	}
+	.instruction li {
+		width: 40%;
+		vertical-align: top;
+		/*height: 80px;*/
+	}
+	.instruction li:after {
+		width: 130%;
+		top: 21%;
+	}
+    .matches_list {
+    padding: 10px 0px 8px 0px;
+}
+	
+    .matches_list .team_name, .matches_list .date, .matches_list .stadium-name{font-size: 12px;}
+}
+
+@media only screen and (max-width:412px) {
+	.list_col.team_detail .box1 {
+		width: 63px;
+	}
+	.catg_wrap {
+		width: 29%;
+	}
+    .stadium-label.res-text{display: block}
+    .stadium-label.desk-top{display: none}
+
+#loading {
+    font-size: 0.6rem;
+}
+}
+
+@media only screen and (max-width:384px) {
+	.matches_list .list_col,
+	.list_col.team_detail,
+	.play_link a label {
+		font-size: 13px;
+		/*line-height: 14px*/
+	}
+	.list_col.team_detail .box1 {
+		width: 55px;
+	}
+	.catg_wrap {
+		width:33%;
+	}
+	.catg .img_box {
+		width: 50px;
+		height: 50px;
+	}
+	.catg_title {
+		font-size: 11px;
+	}
+	.catg_wrap:nth-child(3n) {
+		margin-right: 0px;
+	}
+	.t_name {
+		font-size: 12px;
+	}
+	.instruction li {
+		vertical-align: top
+	}
+    .matches_list-2 {
+    padding: 10px 0;
+}
+    .score-detail {
+    width: 89%;
+}
+}
+
+@media only screen and (max-width:375px) {
+	.team_name {
+		margin-bottom: 4px;
+		margin-top: 4px
+	}
+	.title_bg .team_logo {
+		width: 30px;
+		height: 30px;
+	}
+	.checkbox_img>input[type=checkbox]:checked+label:before {
+		font-size: 40px;
+		padding: 35px 0;
+	}
+	.catg_wrap .checkbox_img>input[type=checkbox]:checked+label:before {
+		padding: 30px 0;
+		font-size: 40px;
+	}
+	/*.list_col.team_detail .box1 { width: 50px;}*/
+}
+@media only screen and (max-width:375px) {
+    .match_menu .link_area a .img-btn {
+		width: 149px;
+        height:28px;
+	}
+    /*.match_menu .link_area a .img-btn img {max-width: 100%;max-height: 120%;}*/
+     .palyer_list2 .col-res1 {
+    width: 30%;
+}
+    .palyer_list2 .col-res2 {
+    width: 70%;
+}
+}
+@media only screen and (max-width:360px) {
+     .match_menu .link_area a .img-btn {
+		width: 125px;
+/*        height:32px;*/
+         font-size: 16px;
+	}
+	.list_col.team_detail .box1 {
+		width: 52px;
+	}
+	/*.list_col.team_detail .box1 { width: 50px;}	*/
+	.catg_wrap:nth-child(4n),
+	.catg_wrap:nth-child(5n) {
+		margin: 0px;
+	}
+	.catg_wrap:nth-child(3n) {
+		margin-right: 0px;
+	}
+    .instruction .label {
+		font-size: 12px;
+        font-weight: normal;
+        padding: 5px 0px;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.catg_wrap {
+		width:33%;
+	}
+	/*.matches_list{  padding:0px 0px 0px 0px;}*/
+	.list_col .game_logo {
+		width: 50px;
+		height: 50px;
+		/*
+	padding: 10px;*/
+	}
+	.title_bg2 .list_col2 {
+		width: 31.2%;
+	}
+	.catg_title {
+		font-size: 10.7px;
+	}
+	.list_col i:first-child {
+		margin-right: 3px;
+	}
+	.list_col i:last-child {
+		margin-left: 0px;
+	}
+	.list_col.team_detail .span {
+		width: 10%;
+	}
+	.list_col.team_detail .box1 {
+		width: 62px;
+	}
+   .container_wrap, .container_wrap2 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+    .match_menu .link_area a .img-btn {
+    width: 118px;
+    height: 32px;
+}
+    
+}
+@media screen and (orientation:landscape)
+{
+    #video-page.play_ground,  #video-page .main_section{ position: inherit;}
+    #video-page .container_wrap2{
+        max-width: 100%;
+        padding: 0px;
+        position: absolute ;
+        min-width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 9999!important;
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        
+    }
+    
+    .video_wrap {
+    padding: 0px 0px;
+    position: relative !important;
+    z-index: 9999;
+}
+}

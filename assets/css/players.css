@@ -1,0 +1,173 @@
+#main-two {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    height: 600px;
+    margin-top: -30px;
+    transition-property: opacity;
+    transition-duration: .5s;
+    opacity: 0;
+}
+#main-two-left {
+    width: 600px;
+    height: 100%;
+}
+#main-two-middle {
+    width: 1px;
+    height: 100%;
+    background-color: #36f;
+}
+#main-two-right {
+    position: relative;
+    width: 600px;
+    height: 100%;
+}
+#players-team-heading, #players-player-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 24px;
+}
+#players-team-carousel {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+#players-team-name {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+#players-team-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+#players-team-previous, #players-team-next {
+    position: relative;
+    width: 50px;
+    height: 31px;
+    background-repeat: no-repeat;
+}
+#players-team-previous {
+    left: -33px;
+    background-image: url(img/left.png);
+}
+#players-team-next {
+    left: 40px;
+    background-image: url(img/right.png);
+}
+.players-team-carousel-item {
+    position: absolute;
+    background-size: contain;
+    transition-property: all;
+    transition-duration: .2s;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#players-team-carousel-one {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+#players-team-carousel-two {
+    top: 30px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+#players-team-carousel-three {
+    top: 0px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+#players-team-carousel-four {
+    top: 30px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+.players-player-carousel-item {
+    position: absolute;
+    background-size: contain;
+    transition-property: all;
+    transition-duration: .2s;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#players-player-carousel-one {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+#players-player-carousel-two {
+    top: 30px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+#players-player-carousel-three {
+    top: 0px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+#players-player-carousel-four {
+    top: 30px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+#players-player-carousel {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+#players-player-name {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+#players-player-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+#players-player-previous, #players-player-next {
+    position: relative;
+    width: 50px;
+    height: 31px;
+    background-repeat: no-repeat;
+}
+#players-player-previous {
+    left: -33px;
+    background-image: url(img/left.png);
+}
+#players-player-next {
+    left: 40px;
+    background-image: url(img/right.png);
+}
+#player-create-reel {
+    margin:0 auto;
+    justify-content: center;
+}
+#player-create-reel .button-middle {
+    width: 100px;
+}

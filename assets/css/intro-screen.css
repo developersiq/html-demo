@@ -1,0 +1,65 @@
+.start-screen{ 
+    background: #1d1d1e;
+/*    background:#fff;*/
+display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+.start-screen h4{color: #fff; font-size: 1.2rem; font-family: 'OpenSans'; font-weight: 400}
+.start-screen h3 a, .start-screen h3{color: #fff; font-size: 2.5rem;font-family: 'OpenSans'; line-height: 50px; font-weight: 400; text-decoration: none}
+.start-screen h3{color: #fff; font-size: 2.6rem;  font-weight: 500; }
+.start-screen h2 a{color: #fff; font-size: 2.5rem;font-family: 'OpenSans'; line-height: 50px;font-weight: 400;text-decoration: none}
+.start-screen h3 a:hover, .start-screen h3 a:active, .start-screen h3 a.active-link, h3.active-link{color: #ffe600; text-decoration: none}
+.start-screen h2 a:hover{color: #0095c4; font-size: 2.5rem;}
+.start-screen h5{color: #fff; }
+.start-button{ 
+	
+	text-align: center;margin: 30px auto; display: flex; justify-content: center;align-items: center;
+	
+}
+.start-button a{
+    width: 6rem; 
+    height: 6rem;     
+    background: #212121; 
+    border-radius: 50%;color: #fff;
+    text-transform: uppercase;  
+    vertical-align: middle; 
+    font-size:1rem;
+    display: flex; justify-content: center;align-items: center;
+    position: relative;
+    transition: .5s;
+    text-decoration: none;
+    color: #ffe600;
+    border:5px solid #ffffff;
+   
+     box-shadow: 0 0 30px #ffffff;
+}
+.start-button a i{font-size:2rem; }
+.start-button a:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0p;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #212121;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    
+}
+.start-button a:hover:before, .start-button a:active:before{
+     transform: scale(.9);
+    box-shadow: 0 0 20px #000000;
+        
+}
+.start-button a:hover, .start-button a:active{
+     transform: scale(1.1);
+    box-shadow: 0 0 15px #ffe600;
+        
+}
