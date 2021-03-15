@@ -35,6 +35,11 @@
          <link rel="stylesheet" href="assets/pre-loader/css/styles.css" type="text/css" media="screen, print"/>
           <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
       </head>
+
+      <style>
+        
+      </style>
+      
       <body>
           
          
@@ -57,8 +62,10 @@
                             <div class="start-button">
                                 <a href="matches.html"><span>
                                         <i class="fa fa-hand-pointer-o"></i>
-                                    <div>Start</div>
+                                    <div id="start_btn">Start</div>
+                                    
                                     </span></a>
+                                    <div id="click_btn" onclick="changeText()">click me</div>
                             </div>
                                <div class="splash-footer">
                                     <div class="logo">
@@ -81,7 +88,17 @@
             <div id="status"></div>
          </div>-->
         
-         
+         <script>
+            //
+            function changeText(){
+               document.getElementById("start_btn").innerHTML = "Ready"
+             
+               
+            }
+            
+         </script>   
       </body>
+
+      
    </html>
 
